@@ -11,8 +11,7 @@ let sub = {
     endpoint:"https://fcm.googleapis.com/fcm/send/epUo-T_TxIo:APA91bE4_4Ej90dEUTf_hbptRUkx1As_VmEhAMEjEdPjN7CRwBeNqJMWItr5WXlagRTyXYbRN9mee66tySa782BB0jCYu3qDNqaiF7VQymLipA-5EDmpGz6YoaJ_eGqkC05OlNK4WXo_",
     expirationTime:null,
     keys:{
-        p256dh:"BGoiOQIgr3qoq3P6hahX-SbbRlKEuiYf7fUOMB_DA9jVwncsQa-YDZ9R3NSFQ4KT00quALhUL0G6gHTt9ZylQp4",
-        auth:"d2DOgV9IoWERLyUtg9eACg"
-    }
+    p256dh:"BGoiOQIgr3qoq3P6hahX-SbbRlKEuiYf7fUOMB_DA9jVwncsQa-YDZ9R3NSFQ4KT00quALhUL0G6gHTt9ZylQp4",auth:"d2DOgV9IoWERLyUtg9eACg"
+}
 };
 push.sendNotification(sub, 'test message')
