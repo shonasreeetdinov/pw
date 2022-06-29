@@ -22,5 +22,5 @@ let sub2 = {
         "auth":"mG5UonrLURRxMXnKNuYH-g",
         "p256dh":"BOAEasuzHGo8dVMCxmwStutUDprh_EDhuK8YUhzD9jSr2pkQvaXN6K3oy5vg93s_g6Rd4WL61cLe-Gk1wxyNEUo"}
 }
-push.sendNotification(sub, 'test message')
 push.sendNotification(sub2, 'test messagea Mozilla')
+push.sendNotification(sub, 'test message')
