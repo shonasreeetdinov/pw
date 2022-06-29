@@ -16,7 +16,7 @@ let sub = {
     auth:"bIPuXTruEFjFgZIqm1cObw"}};
 
 let sub2 = {
-    "endpoint":"https://updates.push.services.mozilla.com/wpush/v2/gAAAAABiv…lb_L15Vw67J195kakG1Pw5UX9mxVjnvofLk3Vn-G5rh2CiOxDHfEoUmysqXc",
+    "endpoint":"https://updates.push.services.mozilla.com/wpush/v2/gAAAAABivHZUWAE60AgsPuVoOJKZLXj2eXVmPbX-D5lbIDMZXRyfRMYI5SuMpQG8SuSejVDEy6BrWiCui2I0jlKQeAfOT-ugemp2jkvMcJsdd4Q_wcBMEqaxlz7lb_L15Vw67J195kakG1Pw5UX9mxVjnvofLk3Vn-G5rh2CiOxDHfEoUmysqXc",
     "expirationTime":null,
     "keys":{
         "auth":"mG5UonrLURRxMXnKNuYH-g",
