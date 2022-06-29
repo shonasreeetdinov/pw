@@ -7,13 +7,7 @@ let vapidKeys = {
 
 push.setVapidDetails('mailto:test@code.co.uk', vapidKeys.publicKey, vapidKeys.privateKey)
 
-let sub = {
-    endpoint:
-        "https://fcm.googleapis.com/fcm/send/cc9jVzFrKnI:APA91bF1dGqrIyFHe63VL45WQp_3SPQULgCxygEE9invkuPNzx0JqvMy54px1qqAZXyBybgLOpN23AWJTK8Z6SFAvHFfFyQ61NlBaq2Z4zjZ43mvDBL8n1aAUItnr3ls_1q_WHnoQn7L",
-    expirationTime:null,
-    keys:{
-    p256dh:"BJ2xNjYu-qDZifl3SD1dn9Z9z8L7c41ajL-hfqPhr938y5daSQyIudEkEHkYPgOMa9dSjlXBAAoWCGmmnRX8Pd8",
-    auth:"bIPuXTruEFjFgZIqm1cObw"}};
+let sub = {"endpoint":"https://fcm.googleapis.com/fcm/send/fyZqpopBUGo:APA91bFwhiFMMRH7db78ebXVxq6SI0OZTM0GNOnuvK8KZPR71vXx6jmlLoGA9D485XyCT2W32ooGPFN-hrx6QoXoifAXnNfajNmJ0XfOn9mNwae36FPxMhfmD4DkV9GKOT-kKTyLlOsA","expirationTime":null,"keys":{"p256dh":"BF-UknMZ0HhfgFqsor3wXNGF11cbR0pP0YVJHa23Y0P7tR5BGMapEP2SjxtiTuoofanzTjw7PEWOKwPZOnXhxpE","auth":"Dg_Zpa1rZOaL0IYOplnO8A"}};
 
 let sub2 = {
     "endpoint":"https://updates.push.services.mozilla.com/wpush/v2/gAAAAABivHZUWAE60AgsPuVoOJKZLXj2eXVmPbX-D5lbIDMZXRyfRMYI5SuMpQG8SuSejVDEy6BrWiCui2I0jlKQeAfOT-ugemp2jkvMcJsdd4Q_wcBMEqaxlz7lb_L15Vw67J195kakG1Pw5UX9mxVjnvofLk3Vn-G5rh2CiOxDHfEoUmysqXc",
