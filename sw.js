@@ -9,7 +9,7 @@ self.addEventListener('push', function (e) {
             primaryKey: '2'
         },
         actions: [
-            {action: 'explore', title: "Explore this new world", image: "image/checkmark.png"},
+            {action: 'explore', title: "change", image: "image/checkmark.png"},
             {action: 'close', title: 'Close', icon: 'images/xmark.png'},
         ]
     };
