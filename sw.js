@@ -1,7 +1,8 @@
 self.addEventListener('push', function (e) {
     let options = {
         body: "This notification was generated from a push!",
-        icon: "image/example.png",
+        icon: "img/bell.png",
+        sound: "sound/a.mp3",
         vibrate: [100, 50, 100],
         data: {
             dateOfArrival: Date.now(),
