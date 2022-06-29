@@ -2,7 +2,7 @@ self.addEventListener('push', function (e) {
     let options = {
         body: "Changed",
         icon: "img/bell.png",
-        sound: "sound/a",
+        sound: "sound/Wav.wav",
         vibrate: [100, 50, 100],
         data: {
             dateOfArrival: Date.now(),
