@@ -12,6 +12,7 @@ let sub = {
     expirationTime:null,
     keys:{
     p256dh:"BJJH7B0amghFHSDhZ_ulNdwJMCFx5VK3AQrBj7i3iV99ZUzVt3DfEDTlmLLyNAtvmlPg1wGqmB0GLdGnr1bISuo",
-    auth:"9od3r1tXQD9z8WJO_YC0kw"}
+    auth:"9od3r1tXQD9z8WJO_YC0kw"
+    }
 };
 push.sendNotification(sub, 'test message')
